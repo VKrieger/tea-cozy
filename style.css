@@ -1,0 +1,117 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+
+}
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+
+nav a {
+    text-decoration: underline;
+    margin: 10px;
+    color: seashell;
+}
+
+main {
+    margin: 0;
+}
+
+
+#mission{
+    display: flex;
+    background-image: url(Images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+#Our_Mission{
+    width: 100%;
+    background-color: black;
+}
+
+#featured {
+    width: 1000px;
+    margin: 75px auto;
+}
+
+#teas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    margin: 15px;
+}
+
+#teas img {
+    margin-bottom: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+#locations {
+    display: flex;
+    flex-direction: column;
+    background-image: url(Images/img-locations-background.jpg);
+    background-position: 100% 25%;
+    height: 500px;
+    width: 1200px;
+    justify-content: center;
+    margin: auto;
+}
+
+h2 {
+    margin: 15;
+}
+
+#stores {
+    display: flex;
+    justify-content: center;
+}
+
+#stores div {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 0px 20px;
+    opacity: 1;
+    height: 300px;
+    width: 300px;
+}
+
+#adress {
+    height: 200px;
+}
+
+#copyright {
+    margin: 20px;
+    float: left;
+}
